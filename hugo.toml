@@ -1,0 +1,4 @@
+baseURL = 'https://lidaof.github.io/'
+languageCode = 'en-us'
+title = 'Daofeng Li'
+theme = "PaperMod"
