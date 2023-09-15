@@ -2,3 +2,64 @@ baseURL = 'https://lidaof.github.io/'
 languageCode = 'en-us'
 title = 'Daofeng Li'
 theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+description = "Daofeng Li's homepage"
+keywords = [ "Daofeng Li" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowCodeCopyButtons = false
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+ 
+
+[[menu.main]]
+identifier = "home"
+name = "home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "team"
+name = "team"
+url = "/team/"
+weight = 20
+
+[[menu.main]]
+identifier = "github"
+name = "github"
+url = "https://github.com/lidaof"
+weight = 30
+
+[markup.highlight]
+noClasses = false
+
+enableGitInfo = true

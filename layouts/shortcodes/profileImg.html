@@ -1,0 +1,8 @@
+{{- $Img := (.Get "url") }}
+{{- $height := (.Get "height") }}
+{{- $width := (.Get "width") }}
+{{- $alt := (.Get "alt") }}
+
+<div>
+    <img width="{{ $width | default `200` }}" src="{{$Img}}" alt="{{$alt}}" />
+</div>
