@@ -7,8 +7,10 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
+# googleAnalytics = "G-3DQ5VV4LT8"
 pygmentsUseClasses = true
+
+enableGitInfo = true
 
 [minify]
 disableXML = true
@@ -17,7 +19,7 @@ minifyOutput = true
 [params]
 env = "production"
 description = "Daofeng Li's homepage"
-keywords = [ "Daofeng Li" ]
+keywords = ["Daofeng Li"]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -33,13 +35,13 @@ hideSummary = false
 showtoc = false
 tocopen = false
 
-  [params.assets]
-  favicon = "<link / abs url>"
-  favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
- 
+[params.assets]
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
+
 
 [[menu.main]]
 identifier = "home"
@@ -61,5 +63,3 @@ weight = 30
 
 [markup.highlight]
 noClasses = false
-
-enableGitInfo = true
