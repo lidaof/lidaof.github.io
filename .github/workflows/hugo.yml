@@ -57,10 +57,9 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Debug Hugo Build Output
-        run: ls -la public
-      - name: Remove .lock files  # ✅ New step to fix deployment issue
-        run: find public/ -name ".lock" -type f -delete
+      - name: Remove symlinks
+        run: |
+          find ./public -type l -delete
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
