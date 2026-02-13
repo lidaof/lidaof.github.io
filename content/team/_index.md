@@ -1,9 +1,12 @@
 I have been working with many people on different projects. (as below: Browser=WashU Epigenome Browser)
 
-## Acitve
+## Active
+
+{{< profileImg width="200" url="https://wang.wustl.edu/img/resized_Chad.jpg" alt="Chad Seng" >}}
+Chad Seng is a Bachelor of Science in Computer Science from Oregon State University. He develops and maintains the current version of the [WashU Epigenome Browser](https://epigenomegateway.wustl.edu/). He is also developing the WashU Pangenome Browser.
 
 {{< profileImg width="200" url="https://wang.wustl.edu/img/ShaneLarge.jpg" alt="Shane Liu" >}}
-Shane Liu is a undergraduate student in Computer Science at University of Michigan. He develops new features and functions on the [WashU Epigenome Browser](https://epigenomegateway.wustl.edu/) project. He is also developing the frontend portal of the [IGVF](https://igvf.org/) catalog.
+Shane Liu is a master student in Computer Science at University of Michigan. He develops new features and functions on the [WashU Epigenome Browser](https://epigenomegateway.wustl.edu/) project. He is also developing the frontend portal of the [IGVF](https://igvf.org/) catalog.
 
 {{< profileImg width="200" url="https://wang.wustl.edu/img/JiaweiLarge.jpg" alt="Jiawei Shen" >}}
 Jiawei Shen is a undergraduate student in Computer Science at WashU. He is working on developing the [Repeat Browser](https://repeatbrowser.org/).
@@ -55,5 +58,5 @@ Jason Xu learned JavaScript and React coding in summer 2019 and helped Browser c
 David Ayeke coded some part of the BAM track support in WashU Epigenome Browser. David went to Pizza Hut later.
 
 {{< profileImg width="200" url="https://wang.wustl.edu/img/SilasLarge.jpg" alt="Silas Hsu" >}}
-Silas Hsu wrote most of the code of current [WashU Epigenome Browser](https://epigenomegateway.wustl.edu/) around 2018, and co-first authored [the Browser 2019 NAR paper](https://doi.org/10.1093/nar/gkz348). Silas later entered UIUC for a PhD program in Computer Science.
+Silas Hsu wrote most of the code of 2nd generation of the [WashU Epigenome Browser](https://epigenomegateway.wustl.edu/) around 2018, and co-first authored [the Browser 2019 NAR paper](https://doi.org/10.1093/nar/gkz348). Silas later entered UIUC for a PhD program in Computer Science.
 

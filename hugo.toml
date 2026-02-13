@@ -61,5 +61,17 @@ name = "github"
 url = "https://github.com/lidaof"
 weight = 30
 
+[[menu.main]]
+identifier = "cv"
+name = "cv"
+url = "https://docs.google.com/document/d/1pCBXoAfSeJ8OonMwkJ9P-HX3RkyQPWo8mR2YMqsrs7c/edit?usp=sharing"
+weight = 31
+
+[[menu.main]]
+identifier = "papers"
+name = "papers"
+url = "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=UrcEClEAAAAJ"
+weight = 32
+
 [markup.highlight]
 noClasses = false
